@@ -4,33 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Backrooms: Anomaly Containment Unit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            padding: 50px;
+            font-family: 'VT323', monospace;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
         }
         h1 {
-            color: #f0c674;
+            color: #fff;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            max-width: 600px;
         }
         form {
+            width: 100%;
+            max-width: 400px;
             margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         input, textarea {
             padding: 10px;
-            margin: 5px;
-            width: 80%;
-            max-width: 300px;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 100%;
+            border: 1px solid #fff;
+            background-color: #111;
+            color: #fff;
+            font-family: 'VT323', monospace;
+            font-size: 1.2rem;
         }
         button {
             padding: 10px 20px;
             margin-top: 10px;
-            background-color: #f0c674;
-            border: none;
+            background-color: #444;
+            border: 1px solid #fff;
+            color: #fff;
             cursor: pointer;
+            font-family: 'VT323', monospace;
+            font-size: 1.5rem;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        button:hover {
+            background-color: #fff;
+            color: #000;
         }
     </style>
 </head>
